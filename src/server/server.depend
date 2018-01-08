@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1515378927 source:d:\codebase\universegame\src\server\authenticator.cc
+	"authenticator.h"
+
+1515394012 d:\codebase\universegame\src\server\authenticator.h
+	<iostream>
+	<map>
+
+1515380092 source:d:\codebase\universegame\src\server\main.cpp
+	<iostream>
+	"../include/contract.h"
+
+1515378927 source:d:\codebase\universegame\src\server\universe_map.cc
+	"universe_map.h"
+	<iostream>
+	<vector>
+	<string>
+
+1515378927 d:\codebase\universegame\src\server\universe_map.h
+	"game.h"
+	<vector>
+	<map>
+	<string>
+
+1515378927 d:\codebase\universegame\src\server\game.h
+	<string>
+
+1515380247 d:\codebase\universegame\src\include\contract.h
+
+1515393990 source:d:\codebase\universegame\src\server\game_server.cc
+	"game_server.h"
+	"authenticator.h"
+	<unistd.h>
+	<iostream>
+	<string>
+
+1515382693 d:\codebase\universegame\src\server\game_server.h
+

@@ -21,7 +21,7 @@ namespace contract {
 
     enum RegRes {
         True,
-        False, 
+        False,
     };
 
     enum OpRes {
@@ -33,13 +33,13 @@ namespace contract {
 
     struct OpReq {
         OpType op;
-        char[MAXUSERNAME] username; 
-        char[MAXPASSWORD] password;
+        char username[MAXUSERNAME];
+        char password[MAXPASSWORD];
     };
 
     struct RegResp {
         RegRes result;
-        char[MAXREGMSG];
+        char msg[MAXREGMSG];
     };
 
     struct Position {
@@ -51,7 +51,7 @@ namespace contract {
         int score;
         int map_size;
         Position position;
-        char[MAPSIZE];
+        char universe_map[MAPSIZE];
     };
 
 }

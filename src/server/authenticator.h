@@ -9,7 +9,7 @@ namespace game {
         std::map<std::string, std::string> user_pass_map;
 
     public:
-        Authenticator(std::string secret_path);
+        Authenticator(const char *secret_path);
         bool Auth(std::string username, std::string password);
     };
 }
